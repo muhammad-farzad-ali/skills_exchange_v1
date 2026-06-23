@@ -10,7 +10,10 @@
   <nav class="bg-white shadow-md">
     <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
       <a href="index.html" class="text-xl font-bold text-blue-600">Student Digital Skills Exchange</a>
-      <div class="space-x-4">
+      <button id="nav-toggle" class="md:hidden text-gray-700 focus:outline-none" aria-label="Toggle navigation">
+      <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+    </button>
+    <div id="nav-content" class="hidden md:flex space-x-4">
         <a href="students.html" class="text-gray-700 hover:text-blue-500">Für Studierende</a>
         <a href="businesses.html" class="text-gray-700 hover:text-blue-500">Für Unternehmen</a>
         <a href="faq.html" class="text-gray-700 hover:text-blue-500">FAQ</a>
